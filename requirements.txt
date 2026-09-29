@@ -1,0 +1,12 @@
+pyttsx3~=2.90
+wikipedia~=1.4.0
+PyAutoGUI~=0.9.54
+SpeechRecognition>=3.10.4
+pyjokes==0.6.0
+PyQt5~=5.15.9
+standard-aifc
+audioop-lts
+PyAudio
+setuptools
+fastapi
+uvicorn

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omni Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <h1>OMNI</h1>
+                <span class="status-indicator online"></span>
+            </div>
+            <p class="subtitle">Mobile AI Assistant</p>
+        </header>
+
+        <main class="chat-container" id="chat-container">
+            <!-- Messages will appear here -->
+            <div class="message system">
+                <p>Welcome to Omni Assistant. Tap the microphone to begin.</p>
+            </div>
+        </main>
+
+        <footer class="controls">
+            <div class="pulse-ring" id="pulse-ring"></div>
+            <button class="mic-button" id="mic-button">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 15C13.66 15 15 13.66 15 12V6C15 4.34 13.66 3 12 3C10.34 3 9 4.34 9 6V12C9 13.66 10.34 15 12 15Z" fill="currentColor"/>
+                    <path d="M17 11C17 13.76 14.76 16 12 16C9.24 16 7 13.76 7 11H5C5 14.53 7.61 17.43 11 17.92V21H13V17.92C16.39 17.43 19 14.53 19 11H17Z" fill="currentColor"/>
+                </svg>
+            </button>
+            <p class="status-text" id="status-text">Tap to speak</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
